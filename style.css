@@ -1,25 +1,33 @@
-/* .contactLabel {
-    display: block;
-} */
 .app {
     display: flex;
     flex-direction: column;
     align-self: center;    
-    min-width: 300px;
+    min-width: 300px;    
     min-height: 250px;
+    margin: 0;
 }
 .contactForm {    
     display: flex;
     flex-direction: column;
     margin: 15px;
     align-self: center;
+    width: 40%;
 }
 .contactsList {
     margin: 15px;
     align-self: center;
+    padding: 0;
+    width: 40%;
 }
 .contactItem {
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+    padding: 10px 15px;
+    background: #d8d5e8;
+    border-radius: 5px;
+    width: 100%;
 }
 .nameLabel {
     display: block;
@@ -27,5 +35,45 @@
 .submit {
     align-self: center;
     margin: 15px;    
-    padding: 5px;
+    padding: 5px 10px;
+}
+.nameRow {
+    display: flex;
+    flex-direction: row;
+}
+.first {
+    margin-right: 15px;
+    width: 50%;
+}
+.last {
+    margin-left: 15px;
+    width: 50%;
+}
+.name {
+    display: flex;
+    flex-direction: row;
+}
+.contactLabel {
+    margin-right: 10px;
+}
+.fa-id-card-alt {
+    margin: 0 50px;
+    font-size: 40px;
+}
+.contactEmail {
+     color: #787878; 
+}
+.contactEmail:hover {
+    color: #17a2b8;
+    text-decoration: none;  
+}
+.fa-info-circle {    
+    display: flex;
+    color: #787878; 
+    justify-self: flex-end;
+    margin-left: auto;
+}
+.fa-info-circle:hover {
+    color: #17a2b8;
+    cursor: pointer;
 }
